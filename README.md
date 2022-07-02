@@ -33,9 +33,13 @@ Bạn vào đường link https://pdf.online/convert-pdf-to-html để conver t�
 **GetAnswer.js**
 ```js
 var answers = [];
+var errors = [];
+
+// Bạn sửa lại nếu là pdf xám tự in - s4, nếu là của tailieuhust có màu thì là s8
+var paragraphClass = "s8";
 
 document.querySelectorAll("li").forEach((li) => {
-	let p = li.querySelector(".s8");
+	let p = li.querySelector("." + paragraphClass);
 	if (p) {
 		let imgs = li.querySelectorAll("img");
 		let imgTrue;
@@ -71,6 +75,13 @@ document.querySelectorAll("li").forEach((li) => {
 					.replace("\n\t\t\t\t\t*", "")
 					.replaceAll("\n\t\t\t\t\t", " "),
 				answer: answer.textContent
+					.trim()
+					.replace("\n\t\t\t\t\t*", "")
+					.replaceAll("\n\t\t\t\t\t", " "),
+			});
+		} else {
+			errors.push({
+				question: p.textContent
 					.trim()
 					.replace("\n\t\t\t\t\t*", "")
 					.replaceAll("\n\t\t\t\t\t", " "),
