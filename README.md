@@ -14,8 +14,9 @@ Bạn vào đường link https://pdf.online/convert-pdf-to-html để conver t�
 - Mở đến tab console
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/devtool_N5N1pcl0F.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755854042)
 
-- Paste script trong file **GetAnswer.js**
+- Paste script trong file **GetAnswer.js** (Lưu ý nếu là bản pdf xám - bạn tự in thì bạn sửa lại thành s4 giúp mình còn nếu là pdf của tailieuhust thì bạn để mặc định là s8)
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/runscript1_qSTiGTKK9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755855239)
+![](https://ik.imagekit.io/uvn3cxjawn6/default/editclass_slvYeW3AV.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656758055134)
 
 - Sau khi chạy xong bạn copy mảng đáp án và replace nó trong file **AutoComplete.js**
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/copyobject_hQqp2cvV1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755854275)
