@@ -2,11 +2,11 @@
 >*Đây là những script giúp bạn trả lời nhanh các đáp án của Google Form dựa trên một file pdf đã có đáp án (Hiện tại mình chỉ làm cho form chứa radio input)*  
 
 >Mình học `Bách Khoa` và thi thoảng có những phần form kiểm tra quy chế rất dài lên đến `130 câu` nên mình muốn làm script này để sử dụng và cũng như chia sẻ cho mọi người  
-###**I. Chuyển đổi file pdf sang html**  
+### **I. Chuyển đổi file pdf sang html**  
 Bạn vào đường link https://pdf.online/convert-pdf-to-html để conver từ file pdf thành file html (Hiện tại mình chỉ làm theo trang web này - mỗi trang web sẽ có một kiểu format khác nhau nên sẽ không sử dụng được nếu bạn dùng trang web khác)
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/pdf2html_SBftzH3SC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755204655)
 
-###**II. Sau khi convert và tải file thành công**    
+### **II. Sau khi convert và tải file thành công**    
 - Click đúp vào file html để nó hiển thị trên trình duyệt của bạn  
 - Nhấn chuột phải chọn Kiểm tra/Inspect hoặc ấn F12 để mở Devtool của trình duyệt 
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/inspect_810dBSYoH.png?ik-sdk-version=javascript-1.4.3&updatedAt=16567554652177)        
