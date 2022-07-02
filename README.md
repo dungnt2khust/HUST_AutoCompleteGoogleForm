@@ -160,7 +160,7 @@ document.querySelectorAll(".__question__").forEach((question) => {
 			).textContent;
 			let input = choice.querySelector("input");
 			if (answerTemplate.answer.includes(textChoice)) {
-				input.checked = true;
+				input.click();
 				checked = true;
 			}
 		});
