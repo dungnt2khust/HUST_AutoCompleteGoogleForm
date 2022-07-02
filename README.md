@@ -17,8 +17,9 @@ Bạn vào đường link https://pdf.online/convert-pdf-to-html để conver t�
 - Paste script trong file **GetAnswer.js**
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/runscript1_qSTiGTKK9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755855239)
 
-- Sau khi chạy xong bạn copy mảng đáp án
+- Sau khi chạy xong bạn copy mảng đáp án và replace nó trong file **AutoComplete.js**
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/copyobject_hQqp2cvV1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755854275)
+![](https://ik.imagekit.io/uvn3cxjawn6/default/replacearr_ilk4uJsvc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656756708032)
 
 - Chuyển đến form đang muốn trả lời và paste vào console  
 ![](https://ik.imagekit.io/uvn3cxjawn6/default/runscript2_VzAot8MP6.png?ik-sdk-version=javascript-1.4.3&updatedAt=1656755855592)
