@@ -1,8 +1,11 @@
 var answers = [];
 var errors = [];
 
+// Bạn sửa lại nếu là pdf xám tự in - s4, nếu là của tailieuhust có màu thì là s8
+var paragraphClass = "s8";
+
 document.querySelectorAll("li").forEach((li) => {
-	let p = li.querySelector(".s8");
+	let p = li.querySelector("." + paragraphClass);
 	if (p) {
 		let imgs = li.querySelectorAll("img");
 		let imgTrue;
